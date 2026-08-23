@@ -1,0 +1,1879 @@
+[
+  {
+    "id": 1,
+    "title": "CS50: Вступ до комп'ютерних наук",
+    "description": "Найпопулярніший вступний курс з інформатики від Гарвардського університету. Охоплює C, Python, SQL, JavaScript та основи веброзробки. Доступний безкоштовно.",
+    "url": "https://cs50.harvard.edu/x/",
+    "category": "Програмування",
+    "tags": [
+      "C",
+      "Python",
+      "SQL",
+      "JavaScript",
+      "для початківців"
+    ],
+    "type": "course",
+    "difficulty": "beginner",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:40.614Z"
+  },
+  {
+    "id": 2,
+    "title": "Python.org — Офіційна документація Python",
+    "description": "Офіційний сайт мови Python з повною документацією, туторіалами та довідником бібліотек. Незамінний ресурс для вивчення Python з нуля.",
+    "url": "https://docs.python.org/3/tutorial/",
+    "category": "Програмування",
+    "tags": [
+      "Python",
+      "документація",
+      "туторіал"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "Python",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:40.822Z"
+  },
+  {
+    "id": 3,
+    "title": "Eloquent JavaScript",
+    "description": "Безкоштовна онлайн-книга про JavaScript та програмування загалом. Охоплює основи мови, DOM, Node.js та асинхронне програмування.",
+    "url": "https://eloquentjavascript.net/",
+    "category": "Програмування",
+    "tags": [
+      "JavaScript",
+      "книга",
+      "безкоштовно"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "JavaScript",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:40.972Z"
+  },
+  {
+    "id": 4,
+    "title": "The Odin Project",
+    "description": "Безкоштовний відкритий навчальний план з веброзробки: від HTML/CSS до React та Node.js. Ідеально підходить для самостійного вивчення.",
+    "url": "https://www.theodinproject.com/",
+    "category": "Програмування",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "безкоштовно"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:41.105Z"
+  },
+  {
+    "id": 5,
+    "title": "Алгоритми та структури даних — Visualgo",
+    "description": "Інтерактивна візуалізація алгоритмів сортування, обходу графів, дерев та інших структур даних. Чудово підходить для пояснення алгоритмів студентам.",
+    "url": "https://visualgo.net/",
+    "category": "Алгоритми",
+    "tags": [
+      "візуалізація",
+      "сортування",
+      "графи",
+      "дерева"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:41.257Z"
+  },
+  {
+    "id": 6,
+    "title": "LeetCode — практика алгоритмів",
+    "description": "Платформа для відпрацювання задач з алгоритмів та структур даних. Містить тисячі задач від простих до дуже складних із підтримкою багатьох мов програмування.",
+    "url": "https://leetcode.com/",
+    "category": "Алгоритми",
+    "tags": [
+      "задачі",
+      "практика",
+      "інтерв'ю"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": null,
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:41.394Z"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to Algorithms (CLRS) — MIT OpenCourseWare",
+    "description": "Легендарний курс MIT з аналізу алгоритмів на основі книги CLRS. Включає відеолекції, слайди та завдання.",
+    "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+    "category": "Алгоритми",
+    "tags": [
+      "MIT",
+      "теорія",
+      "аналіз",
+      "відеолекції"
+    ],
+    "type": "course",
+    "difficulty": "advanced",
+    "language": null,
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:41.538Z"
+  },
+  {
+    "id": 8,
+    "title": "fast.ai — Практичне глибоке навчання",
+    "description": "Безкоштовний практичний курс з глибокого навчання для програмістів. Підхід top-down: спершу практика, потім теорія. Покриває PyTorch, трансформери, дифузійні моделі.",
+    "url": "https://www.fast.ai/",
+    "category": "Штучний інтелект",
+    "tags": [
+      "PyTorch",
+      "глибоке навчання",
+      "нейронні мережі",
+      "безкоштовно"
+    ],
+    "type": "course",
+    "difficulty": "intermediate",
+    "language": "Python",
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:41.668Z"
+  },
+  {
+    "id": 9,
+    "title": "Google Machine Learning Crash Course",
+    "description": "Безкоштовний прискорений курс з машинного навчання від Google. Охоплює основи ML, TensorFlow, нейронні мережі та реальні кейси.",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "category": "Штучний інтелект",
+    "tags": [
+      "ML",
+      "TensorFlow",
+      "Google",
+      "безкоштовно"
+    ],
+    "type": "course",
+    "difficulty": "beginner",
+    "language": "Python",
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:41.808Z"
+  },
+  {
+    "id": 10,
+    "title": "3Blue1Brown — Нейронні мережі",
+    "description": "Серія відео з чудовою візуалізацією принципів роботи нейронних мереж, зворотного поширення помилки та градієнтного спуску. Найкраще пояснення математики ШІ.",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+    "category": "Штучний інтелект",
+    "tags": [
+      "відео",
+      "візуалізація",
+      "нейронні мережі",
+      "математика"
+    ],
+    "type": "video",
+    "difficulty": "intermediate",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:41.941Z"
+  },
+  {
+    "id": 11,
+    "title": "Hugging Face — Трансформери та NLP",
+    "description": "Провідна платформа для роботи з моделями NLP та генеративного ШІ. Тисячі відкритих моделей, датасетів та навчальних матеріалів. Документація для використання в проєктах.",
+    "url": "https://huggingface.co/learn",
+    "category": "Штучний інтелект",
+    "tags": [
+      "NLP",
+      "трансформери",
+      "LLM",
+      "відкриті моделі"
+    ],
+    "type": "platform",
+    "difficulty": "advanced",
+    "language": "Python",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.067Z"
+  },
+  {
+    "id": 12,
+    "title": "Kaggle Datasets",
+    "description": "Найбільша спільнота датасаєнтистів у світі. Тисячі наборів даних, змагання з машинного навчання та безкоштовні GPU для навчання. Ідеально для практичних проєктів.",
+    "url": "https://www.kaggle.com/datasets",
+    "category": "Набори даних",
+    "tags": [
+      "датасети",
+      "змагання",
+      "GPU",
+      "безкоштовно"
+    ],
+    "type": "dataset",
+    "difficulty": "intermediate",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:42.216Z"
+  },
+  {
+    "id": 13,
+    "title": "UCI Machine Learning Repository",
+    "description": "Класичний репозиторій наборів даних для машинного навчання від Каліфорнійського університету. Містить сотні датасетів для класифікації, регресії та кластеризації.",
+    "url": "https://archive.ics.uci.edu/",
+    "category": "Набори даних",
+    "tags": [
+      "ML",
+      "класичні датасети",
+      "класифікація"
+    ],
+    "type": "dataset",
+    "difficulty": "beginner",
+    "language": null,
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.357Z"
+  },
+  {
+    "id": 14,
+    "title": "Khan Academy Комп'ютерні науки",
+    "description": "Безкоштовні інтерактивні уроки з програмування, алгоритмів та криптографії. Ідеальний ресурс для учнів середньої школи та вчителів.",
+    "url": "https://www.khanacademy.org/computing",
+    "category": "Платформи навчання",
+    "tags": [
+      "безкоштовно",
+      "школа",
+      "інтерактивно",
+      "криптографія"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": null,
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.508Z"
+  },
+  {
+    "id": 69,
+    "title": "Solo — створення вебсайту",
+    "description": "Solo — ШІ-конструктор вебсайтів без коду: опишіть ідею і отримайте готовий сайт.",
+    "url": "https://soloist.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "вебсайт",
+      "ШІ",
+      "конструктор"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 15,
+    "title": "Coursera — Спеціалізація з Deep Learning",
+    "description": "П'ятикурсна спеціалізація від Andrew Ng. Охоплює нейронні мережі, оптимізацію, CNN, RNN та проєктування систем ML. Один із найкращих структурованих курсів з ШІ.",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "category": "Штучний інтелект",
+    "tags": [
+      "Andrew Ng",
+      "CNN",
+      "RNN",
+      "сертифікат"
+    ],
+    "type": "course",
+    "difficulty": "intermediate",
+    "language": "Python",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.616Z"
+  },
+  {
+    "id": 16,
+    "title": "Jupyter Notebook — Офіційна документація",
+    "description": "Інтерактивне середовище для написання коду, візуалізації даних та документування аналізу. Стандарт індустрії для датасаєнтистів та дослідників.",
+    "url": "https://jupyter.org/documentation",
+    "category": "Інструменти",
+    "tags": [
+      "Python",
+      "аналіз даних",
+      "візуалізація"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "Python",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.726Z"
+  },
+  {
+    "id": 17,
+    "title": "Google Colab",
+    "description": "Безкоштовне хмарне середовище Jupyter від Google з підтримкою GPU та TPU. Ідеально для навчання ML без необхідності встановлення локального ПЗ.",
+    "url": "https://colab.research.google.com/",
+    "category": "Інструменти",
+    "tags": [
+      "GPU",
+      "безкоштовно",
+      "хмара",
+      "Jupyter"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "Python",
+    "featured": false,
+    "createdAt": "2026-07-28T12:20:42.831Z"
+  },
+  {
+    "id": 18,
+    "title": "Scratch — Програмування для дітей",
+    "description": "Візуальна мова програмування від MIT Media Lab для дітей від 8 років. Дозволяє створювати ігри, анімації та інтерактивні історії без написання коду.",
+    "url": "https://scratch.mit.edu/",
+    "category": "Інструменти",
+    "tags": [
+      "діти",
+      "візуальне програмування",
+      "школа",
+      "MIT"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": null,
+    "featured": true,
+    "createdAt": "2026-07-28T12:20:42.970Z"
+  },
+  {
+    "id": 19,
+    "title": "Комп'ютерна наука ігри",
+    "description": "Колекція ігор з комп'ютерної науки на платформі itnauka.org — вчимося граючи.",
+    "url": "https://itnauka.org/#games",
+    "category": "Ігри",
+    "tags": [
+      "ігри",
+      "інформатика",
+      "інтерактивність"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 20,
+    "title": "Космічна подорож",
+    "description": "Інтерактивна гра про космічну подорож — знайомство з основами програмування для молодших школярів.",
+    "url": "https://info.ort.education/mouse/spaceadv/uk/",
+    "category": "Ігри",
+    "tags": [
+      "ігри",
+      "алгоритми",
+      "учні"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 21,
+    "title": "НотаЄнота антифейкова гра",
+    "description": "Антифейкова гра НотаЄнота — розвиваємо медіаграмотність та критичне мислення в ігровій формі.",
+    "url": "https://notaenota.com/#games-block",
+    "category": "Ігри",
+    "tags": [
+      "медіаграмотність",
+      "ігри",
+      "критичне мислення"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 22,
+    "title": "Онлайн-ігри з медіаграмотності Фільтр",
+    "description": "Підбірка онлайн-ігор з медіаграмотності від проєкту Фільтр.",
+    "url": "https://filter.mcsc.gov.ua/selection/ihry-z-mediahramotnosti/",
+    "category": "Ігри",
+    "tags": [
+      "медіаграмотність",
+      "ігри",
+      "онлайн"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 23,
+    "title": "Пригоди тріски",
+    "description": "Ігровий тренажер для знайомства з основами програмування через пригодницьку гру.",
+    "url": "https://pragmatice.net/pragmaprodu/lecodageenchante/app/codaventure.html",
+    "category": "Ігри",
+    "tags": [
+      "ігри",
+      "програмування",
+      "початківці"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 24,
+    "title": "Спільнота на Wordwall — інформатика 2 клас",
+    "description": "Спільнота Wordwall з інтерактивними іграми та вправами для 2 класу з інформатики.",
+    "url": "https://wordwall.net/uk-ua/community/2-%D0%BA%D0%BB/%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0",
+    "category": "Ігри",
+    "tags": [
+      "Wordwall",
+      "ігри",
+      "2 клас",
+      "інформатика"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 25,
+    "title": "Helpinformatik 2-11 клас",
+    "description": "Сайт helpinformatik.com — навчальні матеріали з інформатики для учнів 2–11 класів.",
+    "url": "https://helpinformatik.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "уроки",
+      "2-11 клас"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 26,
+    "title": "Informatics 5-11 клас",
+    "description": "Google-сайт із матеріалами до уроків інформатики для 5–11 класів.",
+    "url": "https://sites.google.com/view/inf10/6-klas/materiali-do-urokiv?authuser=0",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "5-11 клас",
+      "матеріали"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 27,
+    "title": "Інформатика 10 клас стара програма",
+    "description": "Матеріали з інформатики для 10 класу за старою програмою (школа 64).",
+    "url": "https://sites.google.com/marschool64.net/inf-10/a",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "10 клас",
+      "стара програма"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 28,
+    "title": "Інформатика 10 клас",
+    "description": "Навчальний сайт з інформатики для 10 класу школи 64.",
+    "url": "https://sites.google.com/marschool64.net/inf-10/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "10 клас"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 29,
+    "title": "Інформатика 3-4 клас",
+    "description": "Блог учителя з матеріалами та завданнями з інформатики для 3–4 класів.",
+    "url": "https://sofiiainf.blogspot.com/p/4.html",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "3-4 клас",
+      "НУШ"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 30,
+    "title": "Інформатика 5-11 клас Семчак",
+    "description": "Персональний навчальний сайт Семчак — матеріали з інформатики для 5–11 класів.",
+    "url": "https://sites.google.com/view/semchak/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "5-11 клас",
+      "Семчак"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 31,
+    "title": "Інформатика 8 клас стара програма",
+    "description": "Матеріали з інформатики для 8 класу за старою програмою.",
+    "url": "https://sites.google.com/marschool64.net/informatika-8/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "8 клас",
+      "стара програма"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 70,
+    "title": "Vidu — створення відео",
+    "description": "Vidu — ШІ-інструмент для генерації відеоконтенту за текстовим описом.",
+    "url": "https://www.vidu.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "відео",
+      "ШІ",
+      "генерація"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 32,
+    "title": "Інформатікс сайт Олійник Світлани 5-9 клас",
+    "description": "WordPress-блог Олійник Світлани з матеріалами до уроків інформатики для 5–9 класів.",
+    "url": "https://inform54.wordpress.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "5-9 клас",
+      "блог вчителя"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 33,
+    "title": "Блог Кристапчук Оксани",
+    "description": "Блог вчителя інформатики Кристапчук Оксани з матеріалами та ідеями для уроків.",
+    "url": "https://kristapchukoksana.blogspot.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "інформатика",
+      "уроки"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 34,
+    "title": "Блог Терлецької Інни 5-11 клас",
+    "description": "Блог Терлецької Інни — великий архів корисних матеріалів з інформатики для 5–11 класів.",
+    "url": "https://innaterletska.blogspot.com/p/8.html",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "інформатика",
+      "5-11 клас"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 35,
+    "title": "Блог вчителя інформатики Прядуна 2-9 класи",
+    "description": "Сайт Прядуна — матеріали, розробки уроків та тести з інформатики для 2–9 класів.",
+    "url": "https://teach.in.ua/3-4/4",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "інформатика",
+      "2-9 клас"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 36,
+    "title": "Блог вчителів інформатики 5-11 клас",
+    "description": "Колективний блог вчителів інформатики з розробками уроків для 5–11 класів.",
+    "url": "https://informatikpereginska.blogspot.com/p/9_7.html",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "інформатика",
+      "5-11 клас"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 37,
+    "title": "Вивчаємо Python",
+    "description": "Покрокові матеріали для вивчення Python — від основ до практичних завдань.",
+    "url": "https://pishachok.blogspot.com/p/blog-page_37.html",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "Python",
+      "програмування",
+      "навчання"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 38,
+    "title": "Всеосвіта",
+    "description": "Освітня платформа Всеосвіта — тести, розробки уроків і навчальні матеріали.",
+    "url": "https://vseosvita.ua/test",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "тести",
+      "всеосвіта",
+      "онлайн-навчання"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:02.008Z"
+  },
+  {
+    "id": 39,
+    "title": "Віртуальний кабінет інформатики 5-11 класи",
+    "description": "Віртуальний кабінет інформатики — навчальні матеріали та ресурси для уроків 5–11 класів.",
+    "url": "https://sites.google.com/view/teacherschool5/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "5-11 клас",
+      "матеріали"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 40,
+    "title": "ДистОсвіта",
+    "description": "Платформа ДистОсвіта — ресурси та підтримка для дистанційного навчання.",
+    "url": "https://dystosvita.org.ua/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "дистанційна освіта",
+      "платформа",
+      "вчителям"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 41,
+    "title": "Електронний документообіг 10 клас",
+    "description": "Таблиця Google з матеріалами до теми Електронний документообіг для 10 класу.",
+    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxAj8VC8BXUIo7ru7q9wBsvpfZwxi_1pddcM3AKw5uj8JlwTxz466qbmy7SNFv2NbWqoV21b6J0f2E/pubhtml",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "документообіг",
+      "10 клас",
+      "Google Таблиці"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 42,
+    "title": "ЗОШ 19 — корисне для уроків",
+    "description": "Сайт інформатики ЗОШ 19 — матеріали, посилання та корисне для уроків і не тільки.",
+    "url": "https://sites.google.com/site/informatikackua19/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "6 клас",
+      "НУШ"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 43,
+    "title": "Комп'ютерна наука з паном Артемом 3-7 клас",
+    "description": "Платформа пана Артема — уроки з комп''ютерної науки для учнів 3–7 класів.",
+    "url": "https://itnauka.org/#digital-tools",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "комп''ютерна наука",
+      "3-7 клас",
+      "цифрові інструменти"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 44,
+    "title": "Корисні посилання для учнів (Prometheus)",
+    "description": "Особистий кабінет учня на Prometheus — доступ до курсів та навчальних матеріалів.",
+    "url": "https://apps.prometheus.org.ua/learner-dashboard/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "Prometheus",
+      "онлайн-курси",
+      "учні"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 45,
+    "title": "МійКлас 2-4 клас",
+    "description": "Навчальна платформа МійКлас — матеріали з інформатики НУШ для 2–4 класів.",
+    "url": "https://www.miyklas.com.ua/p/informatika-nush",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "НУШ",
+      "2-4 клас",
+      "інформатика",
+      "МійКлас"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 46,
+    "title": "На урок",
+    "description": "Платформа На урок — тести, домашні завдання та навчальні матеріали для вчителів.",
+    "url": "https://naurok.com.ua/test/homework/list",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "тести",
+      "На урок",
+      "домашні завдання"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 47,
+    "title": "Онлайн-конспекти з інформатики 5-10 класи",
+    "description": "Google-сайт з онлайн-конспектами уроків інформатики для 5–10 класів.",
+    "url": "https://sites.google.com/view/onlayn-konspekt-z-informatiku/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "конспекти",
+      "5-10 клас",
+      "інформатика"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 48,
+    "title": "Освітня платформа ВЧИМО",
+    "description": "Освітня платформа ВЧИМО — інтерактивні завдання та матеріали для учнів та вчителів.",
+    "url": "https://vchymo.com/app/application",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "ВЧИМО",
+      "онлайн-навчання",
+      "платформа"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 49,
+    "title": "Персональний сайт Чашука Олександра",
+    "description": "Персональний сайт вчителя інформатики Чашука Олександра з матеріалами для 5–11 класів.",
+    "url": "http://chashuk.edukit.volyn.ua/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "5-11 клас",
+      "блог вчителя"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 50,
+    "title": "Презентації до уроків — блог Оніцук Ганни",
+    "description": "Блог Оніцук Ганни — архів презентацій до уроків інформатики для 5–11 класів.",
+    "url": "https://onishchukanna.blogspot.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "презентації",
+      "5-11 клас",
+      "блог вчителя"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 51,
+    "title": "Сайт інформатики Ніколаєнко",
+    "description": "Сайт вчителя інформатики Ніколаєнко — навчальні матеріали та ресурси до уроків.",
+    "url": "https://sites.google.com/view/nikolaenko-informat/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "інформатика",
+      "сайт вчителя",
+      "матеріали"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 52,
+    "title": "Учительський сайт Бойка 5-11 клас",
+    "description": "Блог вчителя інформатики Бойка — матеріали, завдання та ресурси для 5–11 класів.",
+    "url": "https://informatboyk.blogspot.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "5-11 клас",
+      "інформатика"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 53,
+    "title": "Цифрова школа — Ed-Era курси",
+    "description": "Платформа Ed-Era — онлайн-курси та матеріали з різних предметів для середньої і старшої школи.",
+    "url": "https://www.ed-era.com/courses",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "Ed-Era",
+      "онлайн-курси",
+      "цифрова освіта"
+    ],
+    "type": "platform",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 54,
+    "title": "Шкільний сайт Онопрієнко 5-9 клас",
+    "description": "Блог вчителя інформатики Онопрієнко — уроки та матеріали для 5–9 класів.",
+    "url": "https://onopriyenkoinf.blogspot.com/",
+    "category": "Навчальні матеріали з інформатики",
+    "tags": [
+      "блог вчителя",
+      "5-9 клас",
+      "інформатика"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 55,
+    "title": "Adobe Firefly — генерація зображень",
+    "description": "Adobe Firefly — ШІ-інструмент від Adobe для генерації та редагування зображень.",
+    "url": "https://firefly.adobe.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Adobe",
+      "генерація зображень",
+      "ШІ"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 56,
+    "title": "ChatGPT",
+    "description": "ChatGPT від OpenAI — потужний ШІ-помічник для текстових завдань, навчання та творчості.",
+    "url": "https://chatgpt.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "ChatGPT",
+      "ШІ",
+      "чат-бот"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 57,
+    "title": "Copilot Microsoft",
+    "description": "Microsoft Copilot — ШІ-асистент, інтегрований у продукти Microsoft 365.",
+    "url": "https://copilot.microsoft.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Microsoft",
+      "Copilot",
+      "ШІ"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 58,
+    "title": "Gemini Google",
+    "description": "Google Gemini — мультимодальна ШІ-модель для роботи з текстом, зображеннями та кодом.",
+    "url": "https://gemini.google.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Google",
+      "Gemini",
+      "ШІ"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:05.433Z"
+  },
+  {
+    "id": 59,
+    "title": "Ideogram — генерація зображень",
+    "description": "Ideogram AI — безкоштовний інструмент для генерації зображень за текстовим описом.",
+    "url": "https://ideogram.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "генерація зображень",
+      "ШІ",
+      "Ideogram"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 60,
+    "title": "Leonardo AI — генерація зображень",
+    "description": "Leonardo AI — платформа для генерації якісних зображень та арту за допомогою ШІ.",
+    "url": "https://app.leonardo.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Leonardo AI",
+      "генерація зображень",
+      "ШІ"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 61,
+    "title": "Mistral AI",
+    "description": "Mistral AI — відкрита мовна модель для чату, написання коду та аналізу тексту.",
+    "url": "https://mistral.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Mistral",
+      "ШІ",
+      "LLM"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 62,
+    "title": "NotebookLM Google",
+    "description": "Google NotebookLM — ШІ-помічник для роботи з документами, нотатками та дослідженнями.",
+    "url": "https://notebooklm.google.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Google",
+      "NotebookLM",
+      "дослідження"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 63,
+    "title": "Perplexity",
+    "description": "Perplexity AI — інтелектуальна пошукова система з відповідями від ШІ та посиланнями на джерела.",
+    "url": "https://www.perplexity.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Perplexity",
+      "пошук",
+      "ШІ"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 64,
+    "title": "Pixso — створення дизайнів",
+    "description": "Pixso — онлайн-інструмент для UI/UX-дизайну та прототипування з підтримкою ШІ.",
+    "url": "https://pixso.net/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "дизайн",
+      "Pixso",
+      "прототипування"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 65,
+    "title": "Poe ШІ",
+    "description": "Poe від Quora — платформа з доступом до різних ШІ-моделей в одному місці.",
+    "url": "https://poe.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Poe",
+      "ШІ",
+      "чат-боти"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 66,
+    "title": "Replit Agent",
+    "description": "Replit Agent — ШІ-асистент для програмування, що допомагає будувати застосунки з нуля.",
+    "url": "https://replit.com/products/agent",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Replit",
+      "програмування",
+      "ШІ-агент"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 67,
+    "title": "Sider",
+    "description": "Sider — ШІ-помічник у браузері для роботи з текстом, перекладу та навчання.",
+    "url": "https://sider.ai/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "Sider",
+      "ШІ",
+      "браузерний помічник"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 68,
+    "title": "Slidesgo",
+    "description": "Slidesgo — безкоштовні шаблони презентацій з підтримкою ШІ для вчителів та учнів.",
+    "url": "https://slidesgo.com/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "презентації",
+      "Slidesgo",
+      "шаблони"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 71,
+    "title": "Обмін обличчями — AI Face Swap",
+    "description": "AI Face Swap — онлайн-інструмент для заміни облич на фото за допомогою ШІ.",
+    "url": "https://aifaceswap.io/",
+    "category": "Робота з ШІ",
+    "tags": [
+      "face swap",
+      "ШІ",
+      "зображення"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 72,
+    "title": "Персональні асистенти — підбірка",
+    "description": "Підбірка персональних ШІ-асистентів із Notion-сторінки — корисний огляд інструментів.",
+    "url": "https://crenius.notion.site/6-03-02-25-161188568e9f8081b40cc39badf04fc5",
+    "category": "Робота з ШІ",
+    "tags": [
+      "ШІ-асистенти",
+      "Notion",
+      "підбірка"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 73,
+    "title": "Як правильно створювати запити для ШІ",
+    "description": "Відео-урок про мистецтво написання ефективних промптів для роботи зі штучним інтелектом.",
+    "url": "https://www.youtube.com/live/oxSR5yuos-M",
+    "category": "Робота з ШІ",
+    "tags": [
+      "промпти",
+      "ШІ",
+      "YouTube",
+      "навчання"
+    ],
+    "type": "video",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 74,
+    "title": "EPAM програми навчання",
+    "description": "EPAM Campus — безкоштовні навчальні програми та курси для майбутніх IT-спеціалістів.",
+    "url": "https://campus.epam.ua/ua/training",
+    "category": "Різне",
+    "tags": [
+      "EPAM",
+      "навчання",
+      "IT"
+    ],
+    "type": "course",
+    "difficulty": "advanced",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 75,
+    "title": "Excel з нуля за 1,5 години",
+    "description": "Відео-урок: освоїти Excel з абсолютного нуля за 1,5 години — практичний інтенсив.",
+    "url": "https://www.youtube.com/live/uRARDyN7pvk",
+    "category": "Різне",
+    "tags": [
+      "Excel",
+      "YouTube",
+      "таблиці"
+    ],
+    "type": "video",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 76,
+    "title": "MagicSchool курси для вчителів",
+    "description": "MagicSchool — сертифікаційні курси для вчителів щодо використання ШІ в освіті.",
+    "url": "https://www.magicschool.ai/certification-courses",
+    "category": "Різне",
+    "tags": [
+      "MagicSchool",
+      "ШІ",
+      "вчителям"
+    ],
+    "type": "course",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 78,
+    "title": "Teachers winter 2025 — підбірка ресурсів",
+    "description": "Notion-сторінка з підбіркою ресурсів і матеріалів для вчителів — зимовий випуск 2025.",
+    "url": "https://crenius.notion.site/Teachers-winter-2025-161188568e9f80909021e0c25c4336c2",
+    "category": "Різне",
+    "tags": [
+      "вчителям",
+      "Notion",
+      "підбірка 2025"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:08.704Z"
+  },
+  {
+    "id": 79,
+    "title": "Інтерактивна інформатика",
+    "description": "Платформа Інтерактивна інформатика — готові інтерактивні уроки та матеріали для вчителів.",
+    "url": "https://interact-lessons.com/",
+    "category": "Різне",
+    "tags": [
+      "інтерактивні уроки",
+      "інформатика",
+      "навчання"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 80,
+    "title": "Вікторина Хто краще — 8 клас",
+    "description": "Вікторина з інформатики для 8 класу на Wordwall — Хто краще знає матеріал?",
+    "url": "https://wordwall.net/uk/resource/57013830/",
+    "category": "Різне",
+    "tags": [
+      "вікторина",
+      "8 клас",
+      "Wordwall",
+      "інформатика"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 81,
+    "title": "Дія Освіта",
+    "description": "Дія.Освіта — державна платформа для безперервного навчання та розвитку цифрових навичок.",
+    "url": "https://osvita.diia.gov.ua/about",
+    "category": "Різне",
+    "tags": [
+      "Дія",
+      "освіта",
+      "держпослуги"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 82,
+    "title": "Знайшов — освітні новини",
+    "description": "Знайшов.com — агрегатор освітніх новин та корисного контенту для педагогів.",
+    "url": "https://znayshov.com/news",
+    "category": "Різне",
+    "tags": [
+      "новини",
+      "освіта",
+      "Україна"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 83,
+    "title": "Календар для вчителя",
+    "description": "Онлайн-календар для вчителя — зручне планування навчального розкладу та подій.",
+    "url": "https://alexmyz.github.io/calendar-plan/",
+    "category": "Різне",
+    "tags": [
+      "календар",
+      "планування",
+      "вчителям"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 84,
+    "title": "Осьо — каталог українських діджитал-продуктів",
+    "description": "Osyo — каталог українських цифрових продуктів і сервісів, корисних для роботи та навчання.",
+    "url": "https://osyo.app/",
+    "category": "Різне",
+    "tags": [
+      "каталог",
+      "українські продукти",
+      "діджитал"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 85,
+    "title": "Платформа Вектор",
+    "description": "Вектор — платформа для підвищення кваліфікації педагогів від МОН України.",
+    "url": "https://vector.uied.gov.ua/",
+    "category": "Різне",
+    "tags": [
+      "Вектор",
+      "підвищення кваліфікації",
+      "педагоги"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 86,
+    "title": "Платформа для педагогів Уміти",
+    "description": "Уміти — освітня платформа для розвитку педагогічних компетентностей вчителів.",
+    "url": "https://umity.in.ua/",
+    "category": "Різне",
+    "tags": [
+      "Уміти",
+      "педагоги",
+      "навчання"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 87,
+    "title": "Проактивний педагог — ШІ в освіті",
+    "description": "Блог Іринт Пахомової — стаття про штучний інтелект в освіті для проактивних педагогів.",
+    "url": "https://educationpakhomova.blogspot.com/p/artificial-intelligence-in-education_26.html",
+    "category": "Різне",
+    "tags": [
+      "ШІ в освіті",
+      "блог",
+      "педагог"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 88,
+    "title": "Стаття про безкоштовний ChatGPT",
+    "description": "Стаття: як безкоштовно використовувати ChatGPT-4 — практичні поради для вчителів та учнів.",
+    "url": "https://theinweb.media/yak-bezkoshtovno-vikoristovuvati-chatgpt-4/",
+    "category": "Різне",
+    "tags": [
+      "ChatGPT",
+      "безкоштовно",
+      "ШІ"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 89,
+    "title": "Теми проєктів з інформатики",
+    "description": "Підбірка тем для учнівських проєктів з інформатики — готові ідеї для дослідницької роботи.",
+    "url": "https://fiz-patlay.blogspot.com/p/blog-page_19.html",
+    "category": "Різне",
+    "tags": [
+      "проєкти",
+      "інформатика",
+      "ідеї"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 90,
+    "title": "ШІ для педагогів",
+    "description": "Огляд ШІ-інструментів для педагогів — як використовувати штучний інтелект у навчанні.",
+    "url": "https://educationpakhomova.blogspot.com/p/ai-in-education.html",
+    "category": "Різне",
+    "tags": [
+      "ШІ",
+      "педагоги",
+      "інструменти"
+    ],
+    "type": "article",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 91,
+    "title": "Шрифт, який не бачить ШІ",
+    "description": "Стаття на DOU про шрифт, що обходить системи розпізнавання тексту ШІ — цікавий кейс.",
+    "url": "https://dou.ua/forums/topic/60797/",
+    "category": "Різне",
+    "tags": [
+      "ШІ",
+      "шрифт",
+      "DOU",
+      "цікаво"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 92,
+    "title": "Шрифтова абетка — українська ідентичність",
+    "description": "Абетка UA — каталог шрифтів з українською ідентичністю для дизайнерів та вчителів.",
+    "url": "https://abetkaua.com/",
+    "category": "Різне",
+    "tags": [
+      "шрифти",
+      "українська мова",
+      "ідентичність"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 93,
+    "title": "Як працювати в Blender — відео",
+    "description": "Відео-урок зі вступу до Blender — 3D-моделювання для початківців.",
+    "url": "https://www.youtube.com/watch?v=7TVdJCoe3lc",
+    "category": "Різне",
+    "tags": [
+      "Blender",
+      "3D",
+      "YouTube",
+      "творчість"
+    ],
+    "type": "video",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 94,
+    "title": "Як працює ШІ — відео пояснення",
+    "description": "Відео-пояснення принципів роботи штучного інтелекту — доступно та зрозуміло.",
+    "url": "https://www.youtube.com/watch?v=sUG-L87RxZs",
+    "category": "Різне",
+    "tags": [
+      "ШІ",
+      "YouTube",
+      "пояснення"
+    ],
+    "type": "video",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 95,
+    "title": "Роботи перформанс 2026",
+    "description": "YouTube-відео: виступ роботів-перформерів 2026 року — технології майбутнього вже сьогодні.",
+    "url": "https://www.youtube.com/watch?v=LPEGve_U1cY",
+    "category": "Різне",
+    "tags": [
+      "роботи",
+      "YouTube",
+      "технології"
+    ],
+    "type": "video",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 96,
+    "title": "Rutor — відеоматеріали",
+    "description": "Rutor — трекер для пошуку та завантаження відеоматеріалів та фільмів.",
+    "url": "https://rutor.info/torrent/197715/",
+    "category": "Різне",
+    "tags": [
+      "кіно",
+      "відео",
+      "розваги"
+    ],
+    "type": "platform",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 97,
+    "title": "Рандомне кіно — вибір фільму",
+    "description": "Сервіс для вибору випадкового фільму на вечір — якщо не знаєш, що подивитися.",
+    "url": "https://nothing-to-watch.port80.ch/",
+    "category": "Різне",
+    "tags": [
+      "кіно",
+      "рекомендації",
+      "розваги"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 98,
+    "title": "Adobe Express",
+    "description": "Adobe Express — безкоштовний онлайн-редактор для створення плакатів, відео та графіки.",
+    "url": "https://new.express.adobe.com/",
+    "category": "Творчість",
+    "tags": [
+      "Adobe",
+      "дизайн",
+      "візуальний контент"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:11.974Z"
+  },
+  {
+    "id": 99,
+    "title": "Blogger",
+    "description": "Blogger від Google — безкоштовна платформа для створення власного блогу або сайту класу.",
+    "url": "https://www.blogger.com/about/",
+    "category": "Творчість",
+    "tags": [
+      "блог",
+      "Blogger",
+      "Google",
+      "письменництво"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 100,
+    "title": "Caligraphr — власний шрифт",
+    "description": "Calligraphr — сервіс для створення власного рукописного шрифту з вашого почерку.",
+    "url": "https://www.calligraphr.com/en/",
+    "category": "Творчість",
+    "tags": [
+      "шрифти",
+      "каліграфія",
+      "творчість"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 101,
+    "title": "Canva",
+    "description": "Canva — найпопулярніший онлайн-редактор для дизайну: презентації, плакати, соцмережі.",
+    "url": "https://www.canva.com/",
+    "category": "Творчість",
+    "tags": [
+      "Canva",
+      "дизайн",
+      "презентації"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 102,
+    "title": "Flinga — спільна дошка",
+    "description": "Flinga — спільна інтерактивна дошка для командної роботи та мозкових штурмів на уроці.",
+    "url": "https://flinga.fi/s/FM256VY",
+    "category": "Творчість",
+    "tags": [
+      "Flinga",
+      "колаборація",
+      "інтерактивна дошка"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 103,
+    "title": "JSFiddle — онлайн-редактор коду",
+    "description": "JSFiddle — онлайн-редактор HTML/CSS/JavaScript для практики веброзробки прямо в браузері.",
+    "url": "https://jsfiddle.net/g7jh8mrc/",
+    "category": "Творчість",
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "кодування"
+    ],
+    "type": "tool",
+    "difficulty": "intermediate",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 104,
+    "title": "Mentimeter — інтерактивні опитування",
+    "description": "Mentimeter — інструмент для інтерактивних опитувань і голосувань в реальному часі на уроці.",
+    "url": "https://www.mentimeter.com/",
+    "category": "Творчість",
+    "tags": [
+      "Mentimeter",
+      "опитування",
+      "інтерактивність"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 105,
+    "title": "Scratch — програмування для дітей",
+    "description": "Scratch від MIT — безкоштовне середовище для вивчення програмування через візуальні блоки.",
+    "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
+    "category": "Творчість",
+    "tags": [
+      "Scratch",
+      "програмування",
+      "MIT",
+      "діти"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 106,
+    "title": "Wakelet — колекції посилань",
+    "description": "Wakelet — платформа для створення та ділення колекцій посилань, відео та матеріалів.",
+    "url": "https://wakelet.com/",
+    "category": "Творчість",
+    "tags": [
+      "Wakelet",
+      "колекції",
+      "освіта"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 107,
+    "title": "Wayground — навчальні ігри",
+    "description": "Wayground — платформа для створення навчальних ігор та вікторин для учнів.",
+    "url": "https://wayground.com/",
+    "category": "Творчість",
+    "tags": [
+      "вікторина",
+      "гейміфікація",
+      "навчання"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 108,
+    "title": "Wordwall — конструктор вправ",
+    "description": "Wordwall — конструктор інтерактивних ігор та вправ для уроків: вікторини, сортування, кросворди.",
+    "url": "https://wordwall.net/uk/community",
+    "category": "Творчість",
+    "tags": [
+      "Wordwall",
+      "ігри",
+      "інтерактивні вправи"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 109,
+    "title": "Приклад сторінки HTML",
+    "description": "Приклад простої HTML-сторінки на JSFiddle — для демонстрації основ розмітки учням.",
+    "url": "https://jsfiddle.net/eoh60t8k/",
+    "category": "Творчість",
+    "tags": [
+      "HTML",
+      "приклад",
+      "веброзробка"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  },
+  {
+    "id": 110,
+    "title": "Створення шкали часу",
+    "description": "Time.graphics — безкоштовний онлайн-редактор для створення інтерактивних шкал часу.",
+    "url": "https://time.graphics/editor",
+    "category": "Творчість",
+    "tags": [
+      "шкала часу",
+      "timeline",
+      "інтерактивність"
+    ],
+    "type": "tool",
+    "difficulty": "beginner",
+    "language": "uk",
+    "featured": false,
+    "createdAt": "2026-07-29T21:43:15.260Z"
+  }
+]
