@@ -1,0 +1,368 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification for EdTech Resources
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: resources
+    description: Educational resource operations
+  - name: categories
+    description: Category operations
+  - name: tags
+    description: Tag operations
+  - name: stats
+    description: Statistics operations
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /resources:
+    get:
+      operationId: listResources
+      tags: [resources]
+      summary: List resources with optional filtering
+      parameters:
+        - name: category
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: tag
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: featured
+          in: query
+          required: false
+          schema:
+            type: boolean
+      responses:
+        "200":
+          description: List of resources
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Resource"
+    post:
+      operationId: createResource
+      tags: [resources]
+      summary: Create a resource
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResourceInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Resource"
+        "400":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /resources/featured:
+    get:
+      operationId: listFeaturedResources
+      tags: [resources]
+      summary: List featured resources for homepage
+      responses:
+        "200":
+          description: Featured resources
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Resource"
+
+  /resources/{id}:
+    get:
+      operationId: getResource
+      tags: [resources]
+      summary: Get a resource by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Resource
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Resource"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    patch:
+      operationId: updateResource
+      tags: [resources]
+      summary: Update a resource
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResourceUpdate"
+      responses:
+        "200":
+          description: Updated resource
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Resource"
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    delete:
+      operationId: deleteResource
+      tags: [resources]
+      summary: Delete a resource
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "204":
+          description: Deleted
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /categories:
+    get:
+      operationId: listCategories
+      tags: [categories]
+      summary: List all categories with resource counts
+      responses:
+        "200":
+          description: Categories with counts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CategoryCount"
+
+  /tags:
+    get:
+      operationId: listTags
+      tags: [tags]
+      summary: List all tags with resource counts
+      responses:
+        "200":
+          description: Tags with counts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/TagCount"
+
+  /stats:
+    get:
+      operationId: getStats
+      tags: [stats]
+      summary: Get overall statistics
+      responses:
+        "200":
+          description: Statistics
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
+
+    Resource:
+      type: object
+      required: [id, title, description, url, category, tags, type, difficulty, featured, createdAt]
+      properties:
+        id:
+          type: number
+        title:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+        category:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        type:
+          type: string
+          description: "article, video, course, tool, dataset, platform"
+        difficulty:
+          type: string
+          description: "beginner, intermediate, advanced"
+        language:
+          type: ["string", "null"]
+          description: "Programming language if applicable"
+        featured:
+          type: boolean
+        createdAt:
+          type: string
+
+    ResourceInput:
+      type: object
+      required: [title, description, url, category, tags, type, difficulty]
+      properties:
+        title:
+          type: string
+          minLength: 1
+        description:
+          type: string
+          minLength: 1
+        url:
+          type: string
+          minLength: 1
+        category:
+          type: string
+          minLength: 1
+        tags:
+          type: array
+          items:
+            type: string
+        type:
+          type: string
+        difficulty:
+          type: string
+        language:
+          type: string
+        featured:
+          type: boolean
+
+    ResourceUpdate:
+      type: object
+      properties:
+        title:
+          type: string
+          minLength: 1
+        description:
+          type: string
+          minLength: 1
+        url:
+          type: string
+          minLength: 1
+        category:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        type:
+          type: string
+        difficulty:
+          type: string
+        language:
+          type: string
+        featured:
+          type: boolean
+
+    CategoryCount:
+      type: object
+      required: [name, count]
+      properties:
+        name:
+          type: string
+        count:
+          type: number
+
+    TagCount:
+      type: object
+      required: [name, count]
+      properties:
+        name:
+          type: string
+        count:
+          type: number
+
+    Stats:
+      type: object
+      required: [totalResources, byCategory, byType, recentCount]
+      properties:
+        totalResources:
+          type: number
+        byCategory:
+          type: array
+          items:
+            $ref: "#/components/schemas/CategoryCount"
+        byType:
+          type: array
+          items:
+            $ref: "#/components/schemas/CategoryCount"
+        recentCount:
+          type: number
+          description: Resources added in the last 7 days
+        featuredCount:
+          type: number
